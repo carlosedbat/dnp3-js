@@ -6,6 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
+  // coment for commit only develop
   ping(): string {
     return this.appService.ping();
   }
